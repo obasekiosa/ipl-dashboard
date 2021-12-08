@@ -4,11 +4,13 @@ import com.github.obasekiosa.ipldashboard.model.Team;
 import com.github.obasekiosa.ipldashboard.repository.MatchRepository;
 import com.github.obasekiosa.ipldashboard.repository.TeamRepository;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@CrossOrigin
 public class TeamController {
 
     private TeamRepository teamRepository;
