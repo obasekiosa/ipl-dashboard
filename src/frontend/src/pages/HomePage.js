@@ -1,7 +1,5 @@
 import { React, useEffect, useState } from 'react';
 import { TeamTile } from '../components/TeamTile';
-
-
 import './HomePage.scss';
 
 
