@@ -7,4 +7,9 @@
     background-color: gray;
     position: sticky;
     top: 0;
+
+    & > a:hover {
+        background-color: aqua;
+        color: black;
+    }
 }
