@@ -1,0 +1,10 @@
+.CreatorInfoCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 10px;
+    text-align: center;
+    background-color: gray;
+    position: sticky;
+    top: 0;
+}
